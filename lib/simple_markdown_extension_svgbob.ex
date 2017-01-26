@@ -1,0 +1,2 @@
+defmodule SimpleMarkdownExtensionSvgBob do
+end
