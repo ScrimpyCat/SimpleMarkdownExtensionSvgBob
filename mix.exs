@@ -9,8 +9,8 @@ defmodule SimpleMarkdownExtensionSvgBob.Mixfile do
             elixir: "~> 1.3",
             build_embedded: Mix.env == :prod,
             start_permanent: Mix.env == :prod,
-            deps: deps,
-            package: package
+            deps: deps(),
+            package: package()
         ]
     end
 
@@ -32,9 +32,9 @@ defmodule SimpleMarkdownExtensionSvgBob.Mixfile do
     # Type `mix help deps` for more examples and options
     defp deps do
         [
-            { :simple_markdown, "~> 0.2.0" },
+            { :simple_markdown, "~> 0.2" },
             { :svgbobex, "~> 0.0.1" },
-            { :ex_doc, "~> 0.13", only: :dev }
+            { :ex_doc, "~> 0.18", only: :dev, runtime: false }
         ]
     end
 

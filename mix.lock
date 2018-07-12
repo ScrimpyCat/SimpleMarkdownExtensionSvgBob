@@ -1,7 +1,9 @@
-%{"earmark": {:hex, :earmark, "1.1.0", "8c2bf85d725050a92042bc1edf362621004d43ca6241c756f39612084e95487f", [:mix], []},
-  "ex_doc": {:hex, :ex_doc, "0.14.5", "c0433c8117e948404d93ca69411dd575ec6be39b47802e81ca8d91017a0cf83c", [:mix], [{:earmark, "~> 1.0", [hex: :earmark, optional: false]}]},
-  "html_entities": {:hex, :html_entities, "0.3.0", "2f278ffc69c3f0cbd5996628fef37cf922fa715f3e04b9f38924c8adced3f25a", [:mix], []},
-  "parsey": {:hex, :parsey, "0.0.1", "879f7c5cb052d7d97472bcd773ffc87723692bb526b2792e6fa1235aca88a1b4", [:mix], []},
+%{
+  "earmark": {:hex, :earmark, "1.2.5", "4d21980d5d2862a2e13ec3c49ad9ad783ffc7ca5769cf6ff891a4553fbaae761", [:mix], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.18.3", "f4b0e4a2ec6f333dccf761838a4b253d75e11f714b85ae271c9ae361367897b7", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
+  "html_entities": {:hex, :html_entities, "0.4.0", "f2fee876858cf6aaa9db608820a3209e45a087c5177332799592142b50e89a6b", [:mix], [], "hexpm"},
+  "parsey": {:hex, :parsey, "0.0.2", "40356be7a83d5b56a670266fb69c9a2f95f638d1ad28803610f833cee71cac33", [:mix], [], "hexpm"},
   "porcelain": {:hex, :porcelain, "2.0.3", "2d77b17d1f21fed875b8c5ecba72a01533db2013bd2e5e62c6d286c029150fdc", [:mix], []},
-  "simple_markdown": {:hex, :simple_markdown, "0.2.0", "d2d91a7d6ca89617017eca8e6b43b934ab13505b3e8c65508fc79dfb852d65df", [:mix], [{:html_entities, "~> 0.3", [hex: :html_entities, optional: false]}, {:parsey, "~> 0.0.1", [hex: :parsey, optional: false]}]},
-  "svgbobex": {:hex, :svgbobex, "0.0.1", "fd9394816d5684c695cb0de34224bd775343f1abe1594068f1294c69e9003264", [:mix], [{:porcelain, "~> 2.0", [hex: :porcelain, optional: false]}]}}
+  "simple_markdown": {:hex, :simple_markdown, "0.5.3", "7d47279e6253ce2bc642aeb025789c71b5473173d61c10da1f03f6e40d6c3871", [:mix], [{:html_entities, "~> 0.3", [hex: :html_entities, repo: "hexpm", optional: false]}, {:parsey, "~> 0.0.2", [hex: :parsey, repo: "hexpm", optional: false]}], "hexpm"},
+  "svgbobex": {:hex, :svgbobex, "0.0.2", "6d0c585d152baa5a9a03469214568d3ed23e4811de0ce851f9a9e5ed79f74787", [:mix], [{:porcelain, "~> 2.0", [hex: :porcelain, repo: "hexpm", optional: false]}], "hexpm"},
+}
