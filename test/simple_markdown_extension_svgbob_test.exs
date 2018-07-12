@@ -11,4 +11,15 @@ defmodule SimpleMarkdownExtensionSvgBobTest do
         """
         assert <<"<svg", _ :: binary>> = SimpleMarkdown.convert(src)
     end
+
+    test "Successfully converts bob code snippets to svg" do
+        src = """
+        ```bob
+        +-----+    +-----+
+        | one +--->| two |
+        +-----+    +-----+
+        ```
+        """
+        assert <<"<svg", _ :: binary>> = SimpleMarkdown.convert(src)
+    end
 end
