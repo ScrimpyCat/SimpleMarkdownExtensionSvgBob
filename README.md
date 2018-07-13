@@ -14,6 +14,6 @@ def applications do
 end
 
 def deps do
-    [{ :simple_markdown_extension_svgbob, "~> 0.0.2" }]
+    [{ :simple_markdown_extension_svgbob, "~> 0.1" }]
 end
 ```
