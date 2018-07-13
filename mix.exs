@@ -34,6 +34,7 @@ defmodule SimpleMarkdownExtensionSvgBob.Mixfile do
         [
             { :simple_markdown, "~> 0.2" },
             { :svgbobex, "~> 0.0.1" },
+            { :ex_doc_simple_markdown, "~> 0.3", only: :dev, optional: true },
             { :ex_doc, "~> 0.18", only: :dev, runtime: false }
         ]
     end
