@@ -16,8 +16,7 @@ defmodule SimpleMarkdownExtensionSvgBob do
 
     defimpl SimpleMarkdown.Renderer.HTML, for: [SimpleMarkdown.Attribute.PreformattedCode.Svgbob, SimpleMarkdown.Attribute.PreformattedCode.Bob] do
         def render(%{ input: input }) do
-            SimpleMarkdown.Renderer.HTML.render(input)
-            |> SvgBobEx.to_svg!
+            SvgBobEx.to_svg!(input)
         end
     end
 
